@@ -27,14 +27,6 @@ main {
     
 }
 
-section {
-    
-}
-
-footer {
-    
-}
-
 /*-------------------- ACCORDIAN CSS ---------------------*/
 
 .ui-accordion {
@@ -42,6 +34,7 @@ footer {
 }
 
 .ui-accordion .ui-accordion-header {
+
 }
 
 .ui-accordion .ui-accordion-content {
@@ -67,7 +60,26 @@ footer {
 		
 }
 
+/*----------------------- ACCORDIAN CONTENT CSS --------------------*/
+/* styles the h3 tags in every div */
+.contentDiv h3{
+	margin: 5px;
+	font-size: 1.5em;
+	font-family: ;
+}
+
+/* styles the p tags in every div */
+.contentDiv p{
+	margin: 5px 10px 10px 10px;
+	font-family: ;
+}
+
 /*------------------------ teamSection CSS --------------------------------*/
+/*styles the h4 tags in the teamSection */
+#teamSection h4 {
+	font-size: 1.2em;
+} 
+
 /*------------------------ purposeSection CSS --------------------------------*/
 /*------------------------ strengthsSection CSS --------------------------------*/
 /*------------------------ meetingSection CSS --------------------------------*/
